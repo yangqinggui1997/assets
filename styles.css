@@ -1,0 +1,109 @@
+.field-icon {
+
+    float: right;
+
+    right: 5px;
+
+    margin-top: -26px;
+
+    position: relative;
+
+    z-index: 2;
+
+    cursor: pointer;
+
+}
+
+
+
+.container {
+
+    margin: auto;
+
+    height: 100vh;
+
+}
+
+
+
+.form-container {
+
+    height: 100%;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+.form {
+
+    width: 100%;
+
+    padding: 15px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 5px 8px 0px, rgba(0, 0, 0, 0.12) 0px 1px 14px 0px;
+
+}
+
+
+
+.panel-body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+
+.submit {
+
+    align-self: center;
+
+}
+
+
+
+#password-field {
+
+    padding-right: 26px;
+
+}
+
+
+
+.wraper-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+
+.alert-dismissible .btn-close {
+
+    padding: 0.75em;
+
+}
+
+
+
+.btn-close {
+
+    width: 0.75em;
+
+    height: 0.75em;
+
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/0.75em auto no-repeat;
+
+}
